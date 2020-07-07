@@ -8,7 +8,7 @@ defmodule Identicon do
   @height 250
   @width 250
 
-  def start(input) do
+  def generate(input) do
     input
     |> hash_input()
     |> pick_color()
