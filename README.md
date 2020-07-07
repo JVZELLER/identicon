@@ -1,21 +1,22 @@
 # Identicon
 
-**TODO: Add description**
+Generate identicons based on a given string.
 
-## Installation
+It's based on [Github Identicons](https://github.blog/2013-08-14-identicons/).
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+## Usage Examples
+To use this app, just call `Identicon.generate/1`:
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+```shell
+iex> Identicon.generate("zeller")
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+A 250x250 `png` (the identicon) will be craete at the project's root directory.
+
+The same string will aways generate the same identicon.
+
+### `zeller` Identicon
+
+![Zeller's identicon](data:image/png;base64,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)
+
 
