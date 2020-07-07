@@ -15,5 +15,4 @@ A 250x250 `png` (the identicon) will be craete at the project's root directory.
 
 The same string will aways generate the same identicon.
 
-### "zeller" Identicon
 ![](https://drive.google.com/uc?export=view&id=1hs9jyARhz10YJ1Dm7mjVvNuusyM2-V-0)
